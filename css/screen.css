@@ -226,16 +226,20 @@ a:focus {
     max-width: 36em !important;
 }
 
-.u-max-width-md {}
+.u-max-width-md {
+    max-width: 45em !important;
+}
 
-.u-max-width-lg {}
+.u-max-width-lg {
+    max-width: 60em !important;
+}
 
-.u-max-width-xl {}
+.u-max-width-xl {
+    max-width: 75em !important;
+}
 
-.u-max-width-none {}
-
-.u-max-width-sm {
-    max-width: 36em;
+.u-max-width-none {
+    max-width: none !important;
 }
 
 /*
