@@ -40,6 +40,12 @@ html {
     text-shadow: none;
 }
 
+
+/*------------------------------------*\
+  #Objects
+\*------------------------------------*/
+
+
 /*
     Objects: Row
     ---
@@ -65,6 +71,17 @@ html {
     .o-row--lg {
         padding: 48px 48px 0;
     }
+}
+
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
+
+.o-container {
+    max-width: 90em;
+    margin: auto;
 }
 
 
