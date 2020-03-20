@@ -299,19 +299,31 @@ a:focus {
     align-items: center;
 }
 
-.o-layout--align-baseline {}
+.o-layout--align-baseline {
+    align-items: baseline;
+}
 
 /* Vertical content alignment modifiers. Only work if there is one than one flex item */
 
-.o-layout--align-content-start {}
+.o-layout--align-content-start {
+    align-content: flex-start;
+}
 
-.o-layout--align-content-end {}
+.o-layout--align-content-end {
+    align-content: flex-end;
+}
 
-.o-layout--align-content-center {}
+.o-layout--align-content-center {
+    align-content: center;
+}
 
-.o-layout--align-content-space-around {}
+.o-layout--align-content-space-around {
+    align-content: space-around;
+}
 
-.o-layout--align-content-space-between {}
+.o-layout--align-content-space-between {
+    align-content: space-between;
+}
 
 
 /*------------------------------------*\
